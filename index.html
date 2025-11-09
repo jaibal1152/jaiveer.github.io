@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaiveer - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo-animation">Jaiveer</h1>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-animation">Jaiveer Jiteshkumar Balkrisna</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">Software Engineer | AI Engineer</p>
+                <div class="hero-buttons fade-in-up">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="About Me">About Me</h2>
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <p>Welcome to my personal website! I am a motivated and dedicated professional, always seeking new challenges that allow me to expand my knowledge and skills. I have a proactive mindset and am committed to contributing to the success of the team and the company.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="Education">Education</h2>
+                <div class="education-grid">
+                    <div class="edu-card fade-in">
+                        <div class="edu-header">
+                            <div class="edu-icon-wrapper">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="edu-title-section">
+                                <h3>Bachelor's in Computer Science</h3>
+                                <p class="edu-institution">Instituto Superior Técnico</p>
+                            </div>
+                        </div>
+                        <div class="edu-body">
+                            <div class="edu-date">
+                                <i class="far fa-calendar-alt"></i>
+                                <span>2021 - 2024</span>
+                            </div>
+                            <div class="edu-highlights">
+                                <h4>Key Achievements</h4>
+                                <div class="highlight-grid">
+                                    <div class="highlight-item">
+                                        <span class="highlight-score">20/20</span>
+                                        <span class="highlight-subject">Logic for Programming</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <span class="highlight-score">18/20</span>
+                                        <span class="highlight-subject">Programming with Objects</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <span class="highlight-score">18/20</span>
+                                        <span class="highlight-subject">Algorithms & Data Structures</span>
+                                    </div>
+                                </div>
+                                <div class="project-highlight">
+                                    <i class="fas fa-code-branch"></i>
+                                    <p><strong>Final Year Project: Implementation of a new functionality in the Joplin Open-Source project</strong> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more education entries as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="Experience">Experience</h2>
+                <div class="experience-grid">
+                    <div class="exp-card fade-in">
+                        <div class="exp-header">
+                            <div class="exp-company-section">
+                                <div class="company-logo">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="exp-title-section">
+                                    <h3>AI Engineer</h3>
+                                    <p class="exp-company">MEO - SAPO</p>
+                                </div>
+                            </div>
+                            <div class="exp-meta">
+                                <span class="exp-badge">Full-Time</span>
+                                <span class="exp-duration">
+                                    <i class="far fa-calendar-alt"></i> Sep 2024 - Present
+                                </span>
+                            </div>
+                        </div>
+                        <div class="exp-body">
+                            <h4>Key Projects & Responsibilities</h4>
+                            <div class="projects-grid">
+                                <div class="project-item">
+                                    <i class="fas fa-car"></i>
+                                    <span>Car Recommender System</span>
+                                </div>
+                                <div class="project-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>CTR Prediction Model</span>
+                                </div>
+                                <div class="project-item">
+                                    <i class="fas fa-robot"></i>
+                                    <span>RAG-based QA System</span>
+                                </div>
+                                <div class="project-item">
+                                    <i class="fas fa-newspaper"></i>
+                                    <span>Article Recommendation Engine</span>
+                                </div>
+                            </div>
+                            <div class="exp-tech">
+                                <h4>Technologies Used</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">SQL</span>
+                                    <span class="tech-tag">Redis</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">Docker</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more experience entries as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Hard Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="Hard Skills">Hard Skills</h2>
+                <p class="skills-subtitle fade-in">Technical expertise and professional competencies</p>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python</h3>
+                        <p class="skill-desc">Programming & Development</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>TensorFlow</h3>
+                        <p class="skill-desc">Machine Learning Framework</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>SQL</h3>
+                        <p class="skill-desc">Database Querying & Management</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Redis</h3>
+                        <p class="skill-desc">In-Memory Data Store & Cache</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <h3>Docker</h3>
+                        <p class="skill-desc">Containerization & Deployment</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>RAG</h3>
+                        <p class="skill-desc">Retrieval-Augmented Generation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soft Skills Section -->
+        <section id="soft-skills" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="Soft Skills">Soft Skills</h2>
+                <p class="skills-subtitle fade-in">Interpersonal abilities and personal attributes</p>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-card fade-in">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Team Collaboration</h3>
+                        <p>Working effectively with diverse teams to achieve common goals</p>
+                    </div>
+                    <div class="soft-skill-card fade-in">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Organized</h3>
+                        <p>Systematic and efficient in managing tasks and priorities.</p>
+                    </div>
+                    <div class="soft-skill-card fade-in">
+                        <div class="soft-skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <p>Analytical thinking and creative solutions to complex challenges</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title" data-text="Contact">Get In Touch</h2>
+                <p class="contact-subtitle fade-in">Feel free to reach out to me for any opportunities or collaborations!</p>
+                <div class="contact-grid">
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:jaiveer.balkrisna@gmail.com">jaiveer.balkrisna@gmail.com</a>
+                    </div>
+                    <div class="contact-card fade-in">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/jaiveer-balkrisna/" target="_blank">Connect with me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jaiveer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
